@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@800&display=swap');
+</style>
+
+{margin: 0;padding: 0;text-decoration: none;}
+
+header{
+  width: 100%;
+  height: 80px;
+  background-color: #E5DDBC;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header nav{
+  width: 1200px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header nav ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header nav ul li{
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header nav ul li a{
+  color: #E25051;
+  font-family: 'Bodoni Moda', serif;
+  font-weight: bold;
+  font-size: 1.5em;
+  letter-spacing: -0.03em;
+  transition: 0.5s;
+}
+header nav ul li a:hover{
+  color: #FFFFFF;
+  font-size: 1.5em;
+  transition: 0.5s;
+}
+
+.menu1{width: 200px;}
+.menu2{width: 300px;}
+.menu3{width: 150px;}
+.menu4{width: 160px;}
+
+.tit1{width: 949px;
+    height: 96px;
+background-image: url('img/sub_01.png');}
+
+.tit01{background-color: #FFFDF4;
+width: 100%;
+  height: 96px;
+  display: flex;
+  justify-content: center;
+padding-top: 80px}
+
+.sub1{width: 980px;
+    height: 564px;
+background-image: url('img/con_01.png');}
+
+.sub01{background-color: #FFFDF4;
+  width: 100%;
+    height: 718px;
+    display: flex;
+    justify-content: center;
+    padding-top: 150px}
+
+.tit2{width: 974px;
+    height: 96px;
+background-image: url('img/sub_02.png');}
+
+.tit02{background-color: #FFFDF4;
+width: 100%;
+  height: 96px;
+  display: flex;
+  justify-content: center;}
+
+.sub2{width: 903px;
+    height: 1014px;
+background-image: url('img/con_02.png');}
+
+.sub02{background-color: #FFFDF4;
+  width: 100%;
+    height: 1167px;
+    display: flex;
+    justify-content: center;
+  padding-top: 80px}
+
+footer{
+  width:100%;
+  height: 80px;
+  background-color: #FFFDF4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: gray;
+  font-family: 'Bodoni Moda', serif;
+  font-size: 1em;
+}

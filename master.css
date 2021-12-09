@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@600&display=swap');
+</style>
+
+{margin: 0;padding: 0;text-decoration: none;}
+
+header{
+  width: 100%;
+  height: 80px;
+  background-color: #FFFDF4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header nav{
+  width: 1200px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header nav ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header nav ul li{
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header nav ul li a{
+  color: #E25050;
+  text-transform: uppercase;
+  font-family: 'Bodoni Moda', serif;
+  font-size: 1.0em;
+  letter-spacing: -0.03em;
+  transition: 0.5s;
+}
+header nav ul li a:hover{
+  color: #F4C9C9;
+  font-size: 1.2em;
+  transition: 0.5s;
+}
+
+.menu1{width: 300px;}
+.menu2{width: 300px;}
+.menu3{width: 150px;}
+.menu4{width: 160px;}
+
+.tit1{width: 1200px;
+    height: 180px;
+background-image: url('img/tit_01.png');}
+
+.tit2{width: 1200px;
+    height: 269px;
+background-image: url('img/tit_02.png');}
+
+.tit01{background-color: #E25050;
+width: 100%;
+  height: 180px;
+  display: flex;
+  justify-content: center;}
+
+.tit02{background-color: #FFFDF4;
+  width: 100%;
+    height: 269px;
+    display: flex;
+    justify-content: center;}
+
+.line{width: 100%;
+    height: 2px;
+background-image: url('img/line_01.png');}
+
+.icon1{width: 330px;
+ height: 434px;
+}
+
+.icon2{width: 329px;
+  height: 433px;
+}
+
+.icon3{width: 329px;
+  height: 434px;
+}
+
+.icon{background-color: #FFFDF4;
+width: 100%;
+  height: 550px;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  padding-top: 160px;
+}
+
+.icon4{width: 1066px;
+  height: 301px;}
+
+.icont{background-color: #FFFDF4;
+  width: 100%;
+    height: 510px;
+    display: flex;
+  justify-content: center;
+padding-top: 130px;}
+
+footer{
+  width:100%;
+  height: 80px;
+  background-color: #E25050;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FFFDF4;
+  font-family: 'Bodoni Moda', serif;
+  font-size: 1em;
+  letter-spacing: -0.05em;
+}
